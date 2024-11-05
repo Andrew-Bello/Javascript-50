@@ -7,7 +7,7 @@ const rects = document.querySelectorAll('.rect');
 let currentActive = 1;
 
 function update() {
-  rects.forEach((rect, idx, a) => {
+  rects.forEach((rect, idx) => {
     if (idx < currentActive) {
       rect.classList.add('done');
     } else {
