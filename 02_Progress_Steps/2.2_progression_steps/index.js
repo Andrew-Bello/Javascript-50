@@ -25,6 +25,7 @@ heal.addEventListener('click', () => {
   }
 });
 
+// Restores health only if the health is at 0.
 revive.addEventListener('click', () => {
   if (health === 0) {
     progress.style.width = '100%';
